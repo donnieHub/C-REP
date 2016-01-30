@@ -1,4 +1,6 @@
-// PSEUDO GAME v.0.1
+/**
+	Console Tetris Game.
+*/
 
 #include <iostream> // cin, ñout
 #include <conio.h> // _getch()

@@ -1,3 +1,7 @@
+/**
+	PRNG Analisis.
+*/
+
 #include <iostream>  
 #include <random> 
 #include <ctime>
@@ -9,8 +13,8 @@ int main()
 { 
 	const int I = 1000;
 	int massive[I];
-    mt19937 gen; 
-    gen.seed(time(0)); // try to comment this string 
+    	mt19937 gen; 
+    	gen.seed(time(0));
 	int count1=0, count2=0, count3=0, count4=0, count5=0;
 	for (int i=I-1; i>0; i--){
 		massive[i] = (gen() % 5) + 1;

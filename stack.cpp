@@ -1,3 +1,7 @@
+/**
+	Stack Realisation.
+*/
+
 #include <iostream> // cin, out
 #include <conio.h>  // _getch()
 #include <stdlib.h> // поддержка функции очистки экрана system("cls")
